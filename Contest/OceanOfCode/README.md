@@ -4,4 +4,5 @@
 ### Results
 
 Global rank: 146 / 2'279
+
 Gold league: 83 / 435
