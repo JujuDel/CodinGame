@@ -4,9 +4,31 @@
 #include <algorithm>
 #include <cstdarg>
 
-
 using namespace std;
 
+void debug(const char* fmt...)
+{
+    va_list args;
+    va_start(args, fmt);
+ 
+    while (*fmt != '\0') {
+        if (*fmt == 'd') {
+            int i = va_arg(args, int);
+            cerr << i << " ";
+        } else if (*fmt == 'c') {
+            // automatic conversion to integral type
+            int c = va_arg(args, int);
+            cerr << static_cast<char>(c) << " ";
+        } else if (*fmt == 'f') {
+            double d = va_arg(args, double);
+            cerr << d << " ";
+        }
+        ++fmt;
+    }
+    cerr << endl;
+ 
+    va_end(args);
+}
 
 template<typename T>
 void debugGrid(const vector<T>& grid)

@@ -1,9 +1,17 @@
+import sys
+import math
+
 m = int(input())  # the amount of motorbikes to control
 v = int(input())  # the minimum amount of motorbikes that must survive
 l0 = input()  # L0 to L3 are lanes of the road. A dot character . represents a safe space, a zero 0 represents a hole in the road.
 l1 = input()
 l2 = input()
 l3 = input()
+
+print(l0, file=sys.stderr)
+print(l1, file=sys.stderr)
+print(l2, file=sys.stderr)
+print(l3, file=sys.stderr)
 
 goal = len(l1)
 
@@ -29,9 +37,8 @@ def trySpeed(grid, M, v, x, speed, res, idx):
         return True
     for y in removed:
         M.append(y)
-
+    
     return False
-
 
 def tryJump(grid, M, v, x, speed, res, idx):
     removed = []
@@ -46,9 +53,8 @@ def tryJump(grid, M, v, x, speed, res, idx):
         return True
     for y in removed:
         M.append(y)
-
+    
     return False
-
 
 def tryWait(grid, M, v, x, speed, res, idx):
     removed = []
@@ -65,9 +71,8 @@ def tryWait(grid, M, v, x, speed, res, idx):
         return True
     for y in removed:
         M.append(y)
-
+    
     return False
-
 
 def tryUp(grid, M, v, x, speed, res, idx):
     removed = []
@@ -101,10 +106,9 @@ def tryUp(grid, M, v, x, speed, res, idx):
 
     return False
 
-
 def tryDown(grid, M, v, x, speed, res, idx):
     removed = []
-
+    
     res[idx] = "DOWN"
     for j in range(len(M) - 1, -1, -1):
         y = M[j]
@@ -130,9 +134,8 @@ def tryDown(grid, M, v, x, speed, res, idx):
         M[j] -= 1
     for y in removed:
         M.append(y)
-
+    
     return False
-
 
 def trySlow(grid, M, v, x, speed, res, idx):
     removed = []
@@ -152,21 +155,29 @@ def trySlow(grid, M, v, x, speed, res, idx):
 
     return False
 
-
 def recursif(grid, M, v, x, speed, res, idx):
     global goal
 
+    #print(res[idx-1], file=sys.stderr)
+    #print(M, file=sys.stderr)
+    #print(v, file=sys.stderr)
+    #print((x, speed), file=sys.stderr)
+
     if len(M) < v or idx > 49:
+        #print("FAILURE", file=sys.stderr)
+        #print("", file=sys.stderr)
         return False
 
     if x > goal:
         return True
 
+    #print("", file=sys.stderr)
+
     if speed >= 50:
         speed = 49
     if speed < 0:
         speed = 0
-
+    
     speedSuccess = trySpeed(grid, M, v, x, speed, res, idx)
     if speedSuccess:
         return True
@@ -175,7 +186,7 @@ def recursif(grid, M, v, x, speed, res, idx):
         upSuccess = tryUp(grid, M, v, x, speed, res, idx)
         if upSuccess:
             return True
-
+    
     if not 3 in M:
         downSuccess = tryDown(grid, M, v, x, speed, res, idx)
         if downSuccess:
@@ -202,7 +213,7 @@ def solve(grid, M, v, s):
             ret = recursif(grid, M, 4, 1, 1, res, 1)
         else:
             ret = recursif(grid, M, 4, 0, s, res, 0)
-
+    
         if not ret:
             recursif(grid, M, v, 0, s, res, 0)
     else:
@@ -225,10 +236,12 @@ while True:
         # y: y coordinate of the motorbike
         # a: indicates whether the motorbike is activated "1" or detroyed "0"
         x, y, a = [int(j) for j in input().split()]
+        print((x,y,a,s), file=sys.stderr)
         Motorbikes.append(y)
 
     if not ready:
         orders = solve(grid, Motorbikes, v, s)
+        print(orders, file=sys.stderr)
         ready = True
 
     print(orders[idx])
