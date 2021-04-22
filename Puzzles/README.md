@@ -1,5 +1,9 @@
 # Puzzles
 
+My solutions to most (but not all) of the puzzles in CodinGame.
+
+For the full list, go on my [profile](https://www.codingame.com/profile/b944cb66159c494961db183c595578915353933) and follow me.
+
 ### Hard Puzzles
 
 | Puzzle | Solution | Topic(s) |
@@ -13,7 +17,7 @@
 | [CGX Formatter](https://www.codingame.com/training/hard/cgx-formatter) | [C++](./Hard/cgxFormatter.cpp) | Strings Parsing |
 | [TAN Network](https://www.codingame.com/training/hard/tan-network) | [C++](./Hard/tanNetwork.cpp) | Pathfinding, Graphs, Distances, Trigonometry |
 | [The Labyrinth](https://www.codingame.com/training/hard/the-labyrinth) | [C++](./Hard/theLabyrinth.cpp) | Pathfinding, BFS |
-| [Roller Coaster](https://www.codingame.com/training/hard/roller-coaster) | [Clojure](./Hard/rollerCoaster.clj), [C++](./Hard/rollerCoaster.cpp)  | Dynamic programming, Simulation |
+| [Roller Coaster](https://www.codingame.com/training/hard/roller-coaster) | [C++](./Hard/rollerCoaster.cpp), [Clojure](./Hard/rollerCoaster.clj) | Dynamic programming, Simulation |
 | [The last Crusade - Episode 2](https://www.codingame.com/training/hard/the-last-crusade-episode-2) | [C++](./Hard/theLastCrusade_Episode2.cpp) | Pathfinding, Backtracking |
 | [Surface](https://www.codingame.com/training/hard/surface) | [C++](./Hard/surface.cpp) | Flood fill, Memoization, BFS, Recursion |
 | [The Bridge - Episode 2](https://www.codingame.com/training/hard/the-bridge-episode-2) | [Python 3](./Hard/theBridge.py) | Backtracking, DFS |
@@ -23,8 +27,6 @@
 | [Winamax Sponsored Contest](https://www.codingame.com/training/hard/winamax-sponsored-contest) | [C++](./Hard/winamaxSponsoredContest.cpp) | Backtracking, Recursion |
 
 ### Very Hard Puzzles
-
-[Link to the puzzle list](https://www.codingame.com/training/expert)
 
 | Puzzle | Solution | Topic(s) |
 | :---: | :------: | :------: |
