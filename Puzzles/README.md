@@ -68,7 +68,7 @@ For the full list, go on my [profile](https://www.codingame.com/profile/b944cb66
 | [Shadows of the Night - Episode 1](https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1) | C++ - Not on the repo | Binary search, Intervals |
 | [Dwarfs Standing on the Shoulders of Giants](https://www.codingame.com/training/medium/dwarfs-standing-on-the-shoulders-of-giants) | C++ - Not on the repo | Memoization, Recursion, Graphs |
 | [War](https://www.codingame.com/training/medium/winamax-battle) | C++ - Not on the repo | Queues |
-| [Skynet Revolution - Episode 1](https://www.codingame.com/training/medium/skynet-revolution-episode-1) | Python3 - To add to the repo | BFS, Graphs |
+| [Skynet Revolution - Episode 1](https://www.codingame.com/training/medium/skynet-revolution-episode-1) | Python3 - Not on the repo | BFS, Graphs |
 | [Stock Exchange Losses](https://www.codingame.com/training/medium/stock-exchange-losses) | Python3 - Not on the repo | Array, Loops, Conditions |
 | [Mayan Calculation](https://www.codingame.com/training/medium/mayan-calculation) | C# - Not on the repo | Strings, Radix |
 | [Scrabble](https://www.codingame.com/training/medium/scrabble) | C# - Not on the repo | Loops, Conditions |
