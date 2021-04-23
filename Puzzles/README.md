@@ -20,15 +20,14 @@ TODO
 
 | Puzzle | Solution | Topic(s) |
 | :---: | :------: | :------: |
+| [Mars Lander - Episode 2](https://www.codingame.com/training/medium/mars-lander-episode-2) | [C++](https://github.com/JujuDel/MarLander_Genetic) | Distances, Trigonometry |
 | [The Last Crusade - Episode 1](https://www.codingame.com/training/medium/the-last-crusade-episode-1) | C++ - Not yet on the repo | Conditions |
 | [There is no Spoon - Episode 1](https://www.codingame.com/training/medium/there-is-no-spoon-episode-1) | C++ - Not yet on the repo | Lists |
 | [Aneo Sponsored Puzzle](https://www.codingame.com/training/medium/aneo) | C++ - Not yet on the repo | Loops, Intervals, Arithmetics, Mathematics |
-| [Telephone Numbers](https://www.codingame.com/training/medium/telephone-numbers) | C# - Not yet on the repo | Set - Tries |
 | [Don't Panic - Episode 1](https://www.codingame.com/training/medium/don't-panic-episode-1) | C++ - Not yet on the repo | Conditions |
 | [Bender - Episode 1](https://www.codingame.com/training/medium/bender-episode-1) | C++ - Not yet on the repo | State machine, Simulation |
 | [Network Cabling](https://www.codingame.com/training/medium/network-cabling) | C++ - Not yet on the repo | Loops, Distances, Medians |
 | [The Gift](https://www.codingame.com/training/medium/the-gift) | C++ - Not yet on the repo | Greedy algorithms |
-| [Mars Lander - Episode 2](https://www.codingame.com/training/medium/mars-lander-episode-2) | [C++](https://github.com/JujuDel/MarLander_Genetic) | Distances, Trigonometry |
 | [Shadows of the Night - Episode 1](https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1) | C++ - Not yet on the repo | Binary search, Intervals |
 | [Dwarfs Standing on the Shoulders of Giants](https://www.codingame.com/training/medium/dwarfs-standing-on-the-shoulders-of-giants) | C++ - Not yet on the repo | Memoization, Recursion, Graphs |
 | [War](https://www.codingame.com/training/medium/winamax-battle) | C++ - Not yet on the repo | Queues |
@@ -37,6 +36,7 @@ TODO
 | [Mayan Calculation](https://www.codingame.com/training/medium/mayan-calculation) | C# - Not yet on the repo | Strings, Radix |
 | [Scrabble](https://www.codingame.com/training/medium/scrabble) | C# - Not yet on the repo | Loops, Conditions |
 | [Conway Sequence](https://www.codingame.com/training/medium/conway-sequence) | C# - Not yet on the repo | Sequences |
+| [Telephone Numbers](https://www.codingame.com/training/medium/telephone-numbers) | C# - Not yet on the repo | Set - Tries |
 
 ### From the Community - 6 done
 
