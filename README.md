@@ -1,25 +1,193 @@
+
 # CodinGame
 
 [My profile](https://www.codingame.com/profile/b944cb66159c494961db183c595578915353933)
 
-## What is in this repo?
+This repo contains some of my solutions and some of my rankings
 
-This repo contains some of my solutions for the [puzzles](https://github.com/JujuDel/CodinGame/tree/master/Puzzles) and some of my codes for the [contests](https://github.com/JujuDel/CodinGame/tree/master/Contest).
+## 1 - [Puzzles](https://github.com/JujuDel/CodinGame/tree/master/Puzzles)
 
-## What is CodinGame?
+#### Easy Puzzles - 35 puzzles done
 
-[**Codingame**](https://www.codingame.com) is an online platform for developers, allowing them to play with programming with increasingly difficult puzzles, to learn to code better with an online programming application supporting twenty-five programming languages, and to compete in multiplayer programming contests involving timed artificial intelligence, or code golf challenges.
+<details>
+<summary> From CodinGame - 10 / 10</summary>
 
-It includes:
+| Puzzle | Solution | Topic(s) |
+| :---: | :------: | :------: |
+| [Onboarding](https://www.codingame.com/training/easy/onboarding) | All languages - Not on the repo | Conditions |
+| [Mars Lander - Episode 1](https://www.codingame.com/training/easy/mars-lander-episode-1) | [C++](https://github.com/JujuDel/MarLander_Genetic) / C#, Python3 - Not on the repo | Conditions |
+| [Power of Thor - Episode 1](https://www.codingame.com/training/easy/power-of-thor-episode-1) | C++, C#, Clojure, Python3, Ruby - Not on the repo | Conditions |
+| [Horse-Racing Duals](https://www.codingame.com/training/easy/horse-racing-duals) | C++, C#, Bash - Not on the repo | Loops |
+| [Defibrillators](https://www.codingame.com/training/easy/defibrillators) | C++, C# - Not on the repo | Loops, Distances, Trigonometry |
+| [The Descent](https://www.codingame.com/training/easy/the-descent) | C++ - Not on the repo | Loops |
+| [Temperatures](https://www.codingame.com/training/easy/temperatures) | C++ - Not on the repo | Arrays, Loops, Conditions |
+| [Chuck Norris](https://www.codingame.com/training/easy/chuck-norris) | C++ - Not on the repo | Strings, Encoding, Loops, Conditions |
+| [ASCII Art](https://www.codingame.com/training/easy/ascii-art) | C++ - Not on the repo | Strings, Arrays, Loops |
+| [MIME Type](https://www.codingame.com/training/easy/mime-type) | C++ - Not on the repo | Strings, Hash tables, Loops, Conditions |
 
-* [**Puzzles**](https://www.codingame.com/training) - **_Ordered_** by difficulty and **_labelled_** with the concept you may need to solve them
+</details>
 
-* [**Code golf**](https://www.codingame.com/multiplayer/codegolf) - **_Solve puzzles_** with the shortest possible code
+<details>
+<summary>From the Community - 25 done</summary>
 
-* [**Bot programming**](https://www.codingame.com/multiplayer/bot-programming) - **_Compete_** in multiplayers programming contests involing artificial intelligence. You can improve your solution at anytime
+| Puzzle | Solution | Topic(s) |
+| :---: | :------: | :------: |
+| [Pirate's Treasure](https://www.codingame.com/training/easy/pirates-treasure) | C++ - Not on the repo | Arrays, Loops, Conditions |
+| [Asteroids](https://www.codingame.com/training/easy/asteroids) | C++ - Not on the repo | - |
+| [Create the Longest Sequence of 1s](https://www.codingame.com/training/easy/create-the-longest-sequence-of-1s) | C++ - Not on the repo | String manipulation |
+| [Prefix Code](https://www.codingame.com/training/easy/prefix-code) | C++ - Not on the repo | Tries, String manipulation |
+| [Rock Paper Scissors Lizard Spock](https://www.codingame.com/training/easy/rock-paper-scissors-lizard-spock) | C++ - Not on the repo | Arrays, Conditions |
+| [Detective Pikaptcha - EP1](https://www.codingame.com/training/easy/detective-pikaptcha-ep1) | C# - Not on the repo | Maze |
+| [Detective Pikaptcha - EP2](https://www.codingame.com/training/easy/detective-pikaptcha-ep2) | C# - Not on the repo | Simulation, Maze |
+| [Van Eck's Sequence](https://www.codingame.com/training/easy/van-ecks-sequence) | C# - Not on the repo | Memoization |
+| [1D Bush Fire](https://www.codingame.com/training/easy/1d-bush-fire) | C# - Not on the repo | - |
+| [TicTacToe](https://www.codingame.com/training/easy/tictactoe) | C# - Not on the repo | Conditions, Simulation, 2D array, String manipulation |
+| [Ghost Legs](https://www.codingame.com/training/easy/ghost-legs) | C#, Python3 - Not on the repo | Loops, Conditions, ASCII art |
+| [Brackets, Extreme Edition.](https://www.codingame.com/training/easy/brackets-extreme-edition) | Python3 - Not on the repo | - |
+| [Unit Fractions](https://www.codingame.com/training/easy/unit-fractions) | Python3 - Not on the repo | Numbers theory, Data types |
+| [Self-Driving Car Testing](https://www.codingame.com/training/easy/self-driving-car-testing) | Python3 - Not on the repo | Ascii art |
+| [Credit Card Verifier (Luhn’s Algorithm)](https://www.codingame.com/training/easy/credit-card-verifier-luhns-algorithm) | Python3 - Not on the repo | Check-digit |
+| [Rectangle Partition](https://www.codingame.com/training/easy/rectangle-partition) | Python3 - Not on the repo | Arrays, Loops |
+| [The River I.](https://www.codingame.com/training/easy/the-river-i-) | Python3 - Not on the repo | Conditions |
+| [Sudoku Validator](https://www.codingame.com/training/easy/sudoku-validator) | Python3 - Not on the repo | Conditions, 2D array |
+| [Dungeons and Maps](https://www.codingame.com/training/easy/dungeons-and-maps) | Python3 - Not on the repo | String, Pathfinding, Loops, 2D array |
+| [Bank Robbers](https://www.codingame.com/training/easy/bank-robbers) | Python3 - Not on the repo | Loops, Mathematics |
+| [A Child's Play](https://www.codingame.com/training/easy/a-childs-play) | Python3 - Not on the repo |  |
+| [Graffiti on the Fence](https://www.codingame.com/training/easy/graffiti-on-the-fence) | Python3 - Not on the repo | Intervals |
+| [Lumen](https://www.codingame.com/training/easy/lumen) | Python3 - Not on the repo | Loops, 2D array |
+| [Encryption/Decryption of Enigma Machine](https://www.codingame.com/training/easy/encryptiondecryption-of-enigma-machine) | Python3 - Not on the repo | String, Encoding, Cryptography, String manipulation |
+| [1D Spreadsheet](https://www.codingame.com/training/easy/1d-spreadsheet) | Python3 - Not on the repo | Memoization, Lazy Evaluator, Dependency graph |
 
-* [**Contest**](https://www.codingame.com/contests/finished) - **_Compete_** **_timed_** in multiplayers programming contests involing artificial intelligence. Once finished, the contest goes into the Bot programming section
+</details>
 
-* [**Optimization**](https://www.codingame.com/multiplayer/optimization) - Try to reach the **_best possible score_**, you'll get a ranking and you can improve your solution at anytime
+#### Medium Puzzles - 23 puzzles done
 
-* [**Clash of codes**](https://www.codingame.com/multiplayer/clashofcode) - Participate to a 15min **_coding battle_** !
+<details>
+<summary>From CodinGame - 17 / 17</summary>
+
+| Puzzle | Solution | Topic(s) |
+| :---: | :------: | :------: |
+| [Mars Lander - Episode 2](https://www.codingame.com/training/medium/mars-lander-episode-2) | [C++](https://github.com/JujuDel/MarLander_Genetic) | Distances, Trigonometry |
+| [The Last Crusade - Episode 1](https://www.codingame.com/training/medium/the-last-crusade-episode-1) | C++ - Not on the repo | Conditions |
+| [There is no Spoon - Episode 1](https://www.codingame.com/training/medium/there-is-no-spoon-episode-1) | C++ - Not on the repo | Lists |
+| [Aneo Sponsored Puzzle](https://www.codingame.com/training/medium/aneo) | C++ - Not on the repo | Loops, Intervals, Arithmetics, Mathematics |
+| [Don't Panic - Episode 1](https://www.codingame.com/training/medium/don't-panic-episode-1) | C++ - Not on the repo | Conditions |
+| [Bender - Episode 1](https://www.codingame.com/training/medium/bender-episode-1) | C++ - Not on the repo | State machine, Simulation |
+| [Network Cabling](https://www.codingame.com/training/medium/network-cabling) | C++ - Not on the repo | Loops, Distances, Medians |
+| [The Gift](https://www.codingame.com/training/medium/the-gift) | C++ - Not on the repo | Greedy algorithms |
+| [Shadows of the Night - Episode 1](https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1) | C++ - Not on the repo | Binary search, Intervals |
+| [Dwarfs Standing on the Shoulders of Giants](https://www.codingame.com/training/medium/dwarfs-standing-on-the-shoulders-of-giants) | C++ - Not on the repo | Memoization, Recursion, Graphs |
+| [War](https://www.codingame.com/training/medium/winamax-battle) | C++ - Not on the repo | Queues |
+| [Skynet Revolution - Episode 1](https://www.codingame.com/training/medium/skynet-revolution-episode-1) | Python3 - Not on the repo | BFS, Graphs |
+| [Stock Exchange Losses](https://www.codingame.com/training/medium/stock-exchange-losses) | Python3 - Not on the repo | Array, Loops, Conditions |
+| [Mayan Calculation](https://www.codingame.com/training/medium/mayan-calculation) | C# - Not on the repo | Strings, Radix |
+| [Scrabble](https://www.codingame.com/training/medium/scrabble) | C# - Not on the repo | Loops, Conditions |
+| [Conway Sequence](https://www.codingame.com/training/medium/conway-sequence) | C# - Not on the repo | Sequences |
+| [Telephone Numbers](https://www.codingame.com/training/medium/telephone-numbers) | C# - Not on the repo | Set - Tries |
+
+</details>
+
+<details>
+<summary>From the Community - 6 done</summary>
+
+| Puzzle | Solution | Topic(s) |
+| :---: | :------: | :------: |
+| [Dynamic Sorting](https://www.codingame.com/training/medium/dynamic-sorting) | Python3 - Not on the repo | Sorting, String manipulation |
+| [Fair Numbering](https://www.codingame.com/training/medium/fair-numbering) | Python3 - Not on the repo | Intervals, Digit counts |
+| [The Lost Child - Episode 1](https://www.codingame.com/training/medium/the-lost-child-episode-1) | Python3 - Not on the repo | Pathfinding, BFS, 2D array |
+| [Brackets, Extended Edition](https://www.codingame.com/training/medium/brackets-extended-edition) | Python3 - Not on the repo | Loops, Conditions |
+| [Huffman Code](https://www.codingame.com/training/medium/huffman-code) | C++ - Not on the repo | Greedy algorithms, Compression, Trees |
+| [Futoshiki Solver](https://www.codingame.com/training/medium/futoshiki-solver) | C++ - Not on the repo | Backtracking |
+
+</details>
+
+#### Hard Puzzles - 21 puzzles done
+
+<details>
+<summary>From CodinGame - 17 / 17</summary>
+
+| Puzzle | Solution | Topic(s) |
+| :---: | :------: | :------: |
+| [Vox Codei - Episode 1](https://www.codingame.com/training/hard/vox-codei-episode-1) | [C++](./Puzzles/Hard/voxCodei_Episode1.cpp) | DFS, Brute-force, Simulation |
+| [There is no spoon - Episode 2](https://www.codingame.com/training/hard/there-is-no-spoon-episode-2) | [C++](./Puzzles/Hard/thereIsNoSpoon_Episode2.cpp) | Backtracking, Recursion |
+| [CGX Formatter](https://www.codingame.com/training/hard/cgx-formatter) | [C++](./Puzzles/Hard/cgxFormatter.cpp) | Strings Parsing |
+| [TAN Network](https://www.codingame.com/training/hard/tan-network) | [C++](./Puzzles/Hard/tanNetwork.cpp) | Pathfinding, Graphs, Distances, Trigonometry |
+| [The Labyrinth](https://www.codingame.com/training/hard/the-labyrinth) | [C++](./Puzzles/Hard/theLabyrinth.cpp) | Pathfinding, BFS |
+| [The last Crusade - Episode 2](https://www.codingame.com/training/hard/the-last-crusade-episode-2) | [C++](./Puzzles/Hard/theLastCrusade_Episode2.cpp) | Pathfinding, Backtracking |
+| [Surface](https://www.codingame.com/training/hard/surface) | [C++](./Puzzles/Hard/surface.cpp) | Flood fill, Memoization, BFS, Recursion |
+| [Don't Panic - Episode 2](https://www.codingame.com/training/hard/don't-panic-episode-2) | [C++](./Puzzles/Hard/dontPanic_Episode2.cpp) | Pathfinding |
+| [Bender - Episode 2](https://www.codingame.com/training/hard/bender-episode-2) | [C++](./Puzzles/Hard/bender_Episode2.cpp) | Pathfinding, Memoization, Dynamic programming, Recursion |
+| [Bender - Episode 3](https://www.codingame.com/training/hard/bender-episode-3) | [C++](./Puzzles/Hard/bender_Episode3.cpp) | Regression analysis |
+| [Winamax Sponsored Contest](https://www.codingame.com/training/hard/winamax-sponsored-contest) | [C++](./Puzzles/Hard/winamaxSponsoredContest.cpp) | Backtracking, Recursion |
+| [Roller Coaster](https://www.codingame.com/training/hard/roller-coaster) | [C++](./Puzzles/Hard/rollerCoaster.cpp) / [Clojure](./Puzzles/Hard/rollerCoaster.clj) | Dynamic programming, Simulation |
+| [Power of Thor - Episode 2](https://www.codingame.com/training/hard/power-of-thor-episode-2) | [Python3](./Puzzles/Hard/powerOfThor_Episode2.py) | Pathfinding, Barycenters |
+| [Genome Sequencing](https://www.codingame.com/training/hard/genome-sequencing) | [Python3](./Puzzles/Hard/genomeSequencing.py) | Strings, Permutations |
+| [Super Computer](https://www.codingame.com/training/hard/super-computer) | [Python3](./Puzzles/Hard/superComputer.py) | Greedy algorithms, Scheduling |
+| [Skynet Revolution - Episode 2](https://www.codingame.com/training/hard/skynet-revolution-episode-2) | [Python3](./Puzzles/Hard/skynetRevolution_Episode2.py) | Pathfinding, Graphs |
+| [The Bridge - Episode 2](https://www.codingame.com/training/hard/the-bridge-episode-2) | [Python 3](./Puzzles/Hard/theBridge.py) | Backtracking, DFS |
+
+</details>
+
+<details>
+<summary>From the Community - 4 done</summary>
+
+| Puzzle | Solution | Topic(s) |
+| :---: | :------: | :------: |
+| [Chess Board Analyser](https://www.codingame.com/training/hard/chess-board-analyzer) | [C++](./Puzzles/Hard/chessBoardAnalyser.cpp) | Loops, Strings, 2D array, Chess |
+| [Binary neural network - Part 1](https://www.codingame.com/training/hard/binary-neural-network---part-1) | [C++](./Puzzles/Hard/binaryNeuralNetwork_Part1.cpp) | Neural network |
+| [Encounter surface](https://www.codingame.com/training/hard/encounter-surface) | [Python3](./Puzzles/Hard/encounterSurface.py) | Mathematics, Geometry |
+| [Divisibility of Fibonacci Numbers Sum](https://www.codingame.com/training/hard/divisibility-of-fibonacci-numbers-sum) | [Python3](./Puzzles/Hard/divisibilityOfFibonacciNumbersSum.py) | Recursion, Loops, Arithmetic, Modular calculus |
+
+</details>
+
+#### Very Hard Puzzles - 6 puzzles done
+
+<details>
+<summary>From CodinGame - 5 / 7</summary>
+
+| Puzzle | Solution | Topic(s) |
+| :---: | :------: | :------: |
+| [The Last Crusade - Episode 3](https://www.codingame.com/training/expert/the-last-crusade-episode-3) | [C++](./Puzzles/VeryHard/theLastCrusade_Episode3.cpp) | Pathfinding, Backtracking |
+| [The Resistance](https://www.codingame.com/training/expert/the-resistance) | [C++](./Puzzles/VeryHard/theResistance.cpp) | Memoization, Dynamic programming, Recursion, Encoding |
+| [Mars Lander - Episode 3](https://www.codingame.com/training/expert/mars-lander-episode-3) | [C++](https://github.com/JujuDel/MarLander_Genetic) | Genetic algorithm, Distance, Trigonometry |
+| [Music scores](https://www.codingame.com/training/expert/music-scores) | [Python3](./Puzzles/VeryHard/musicScores.py) | Image processing, Pattern recognition, Encoding |
+| [Shadows Of The Knight - Episode 2](https://www.codingame.com/training/expert/shadows-of-the-knight-episode-2) | [Python3](./Puzzles/VeryHard/shadowsOfTheKnight_Episode2.py) | Binary search, Intervals |
+| [Vox Codei - Episode 2](https://www.codingame.com/training/expert/vox-codei-episode-2) | NOT DONE yet | Pattern recognition, DFS, Brute-force, Simulation |
+| [Nintendo](https://www.codingame.com/training/expert/nintendo-sponsored-contest) | NOT DONE yet | Cryptography |
+
+</details>
+
+<details>
+<summary>From the Community - 1 done</summary>
+
+| Puzzle | Solution | Topic(s) |
+| :---: | :------: | :------: |
+| [Binary neural network - Part 2](https://www.codingame.com/training/expert/binary-neural-network---part-2) | [C++](./Puzzles/VeryHard/binaryNeuralNetwork_Part2.cpp) | Neural network |
+
+</details>
+
+## 2 - Code golfing
+
+TODO
+
+## 3 - [Bot programming](https://github.com/JujuDel/CodinGame/tree/master/BotProgramming)
+
+#### [Spring Challenge 2021](https://www.codingame.com/multiplayer/bot-programming/spring-challenge-2021) - [C++](./BotProgramming/springChallenge2021.cpp)
+
+Legend league - Top 2% global
+
+#### [Fall Challenge 2020](https://www.codingame.com/multiplayer/bot-programming/fall-challenge-2020) - [C++](./BotProgramming/fallChallenge2020.cpp)
+
+Gold league - Top 8% global
+
+#### [Spring Challenge 2020](https://www.codingame.com/multiplayer/bot-programming/spring-challenge-2020) - [Python3](./BotProgramming/springChallenge2020.py)
+
+Gold league - Top 6% global
+
+#### [Ocean of code](https://www.codingame.com/multiplayer/bot-programming/ocean-of-code) - [Python3](./BotProgramming/oceanOfCode.py)
+
+Gold league - Top 6% global
+
+#### [Coders Strike Back](https://www.codingame.com/multiplayer/bot-programming/coders-strike-back) - [C++](./BotProgramming/codersStrikeBack.cpp)
+
+Gold league - Top 1% global
