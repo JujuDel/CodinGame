@@ -2,9 +2,45 @@
 
 [My profile](https://www.codingame.com/profile/b944cb66159c494961db183c595578915353933)
 
-This repo contains some of my solutions and some of my rankings
+## 1 - Contest Local Tester
 
-## 1 - [Puzzles](https://github.com/JujuDel/CodinGame/tree/master/Puzzles)
+### Brutal tester
+
+```sh
+git clone git@github.com:dreignier/cg-brutaltester.git
+cd cg-brutaltester
+mvn package && mv target/cg-brutaltester-1.0.0-SNAPSHOT.jar ../cg-brutaltester.jar
+```
+
+### Referee
+
+Clone and compile a compatible referee (or make your own)
+
+Eg for SpringChallenge2023's [referee](https://github.com/aangairbender/SpringChallenge2023-brutaltester):
+
+```sh
+git clone git@github.com:aangairbender/SpringChallenge2023-brutaltester.git
+cd SpringChallenge2023-brutaltester
+mvn package && mv target/spring-2023-ants-1.0-SNAPSHOT.jar ../referee.jar
+```
+
+### Use the brutal tester
+
+```sh
+java -jar cg-brutaltester.jar -t 5 -n 100 -l logs \
+ -r "java -jar <path_to_referee>" \
+ -p1 <cmd_p1> -p2 <cmd_p2>
+```
+
+Possible px commands:
+
+- `-p1 "./mycode.exe"`
+- `-p1 "g++ -std=c++17 mycode.cpp -o mycode.exe && ./mycode.exe"`
+- `-p1 "python3 mycode.py"`
+
+## 2 - [Puzzles](https://github.com/JujuDel/CodinGame/tree/master/Puzzles)
+
+This repo contains some of my solutions
 
 #### Easy Puzzles - 35 puzzles done
 
@@ -164,29 +200,3 @@ This repo contains some of my solutions and some of my rankings
 | 1 | [Binary neural network - Part 2](https://www.codingame.com/training/expert/binary-neural-network---part-2) | [C++](./Puzzles/VeryHard/binaryNeuralNetwork_Part2.cpp) | Neural network |
 
 </details>
-
-## 2 - Code golfing
-
-TODO
-
-## 3 - [Bot programming](https://github.com/JujuDel/CodinGame/tree/master/BotProgramming)
-
-#### [Spring Challenge 2021](https://www.codingame.com/multiplayer/bot-programming/spring-challenge-2021) - [C++](./BotProgramming/springChallenge2021.cpp)
-
-Legend league - Top 2% global
-
-#### [Fall Challenge 2020](https://www.codingame.com/multiplayer/bot-programming/fall-challenge-2020) - [C++](./BotProgramming/fallChallenge2020.cpp)
-
-Gold league - Top 8% global
-
-#### [Spring Challenge 2020](https://www.codingame.com/multiplayer/bot-programming/spring-challenge-2020) - [Python3](./BotProgramming/springChallenge2020.py)
-
-Gold league - Top 6% global
-
-#### [Ocean of code](https://www.codingame.com/multiplayer/bot-programming/ocean-of-code) - [Python3](./BotProgramming/oceanOfCode.py)
-
-Gold league - Top 6% global
-
-#### [Coders Strike Back](https://www.codingame.com/multiplayer/bot-programming/coders-strike-back) - [C++](./BotProgramming/codersStrikeBack.cpp)
-
-Gold league - Top 1% global
